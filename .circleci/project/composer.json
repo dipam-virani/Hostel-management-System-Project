@@ -1,0 +1,7 @@
+{
+    "name": "my-project",
+    "description": "My project description",
+    "require": {
+        "vendor/package": "1.0.0"
+    }
+}
