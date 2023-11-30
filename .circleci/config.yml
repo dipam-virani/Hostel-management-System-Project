@@ -32,9 +32,11 @@ jobs:
       - checkout
       - run:
           name: Deploy to Production
-          command: sudo cp hostel/index.php    /var/www/html/
-                   sudo service apache2 restart
-                   sleep 10
+          command: |
+            sudo cp hostel/index.php /var/www/html/
+            sudo service apache2 restart
+                   
+                   
             
 workflows:
   version: 3
