@@ -9,11 +9,22 @@
             "email": "dipamvirani@gmail.com"
         }
     ],
+     "minimum-stability": "dev",
+    "prefer-stable": true,
+
     "require": {
         "php": ">=7.4",
+        
         "some-vendor/package": "^1.0"
         
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/some-vendor/package.git"
+        }
+    ],
+    
     "autoload": {
         "psr-4": {
             "YourNamespace\\": "src/"
@@ -27,4 +38,5 @@
         "preferred-install": "dist",
         "sort-packages": true
     }
+    
 }
