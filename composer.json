@@ -13,9 +13,8 @@
     "prefer-stable": true,
 
     "require": {
-        "php": ">=7.4",
-        
-        "some-vendor/package": "^1.0"
+        "php": ">=7.4"
+
         
     },
     "repositories": [
