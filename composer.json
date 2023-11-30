@@ -1,0 +1,30 @@
+{
+    "name": "dipam-virani/Hostel-management-System-Project",
+    "description": "hostel management",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dipam Virani",
+            "email": "dipamvirani@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "some-vendor/package": "^1.0"
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "YourNamespace\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+        
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
