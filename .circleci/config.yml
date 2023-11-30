@@ -32,7 +32,7 @@ jobs:
       - checkout
       - run:
           name: Deploy to Production
-          command: sudo cp hostel/index.php    
+          command: sudo cp hostel/index.php /var/www/html/    
                    
                    
             
