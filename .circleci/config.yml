@@ -33,7 +33,7 @@ jobs:
       - run:
           name: Deploy to Production
           command: sudo cp hostel/index.php    
-                   sudo service apache2 restart
+                   
                    
             
 workflows:
