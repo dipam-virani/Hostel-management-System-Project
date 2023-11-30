@@ -21,8 +21,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/dipam-virani/hostel-management-system-project.git
-"
+            "url": "https://github.com/dipam-virani/hostel-management-system-project.git"
         }
     ],
     
