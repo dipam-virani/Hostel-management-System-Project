@@ -1,5 +1,5 @@
 {
-    "name": "dipamvirani/hostel-management-system-project",
+    "name": "dipam-virani/hostel-management-system-project",
     "description": "hostel management",
     "type": "project",
     "license": "MIT",
@@ -21,7 +21,8 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/some-vendor/package.git"
+            "url": "https://github.com/dipam-virani/hostel-management-system-project.git
+"
         }
     ],
     
