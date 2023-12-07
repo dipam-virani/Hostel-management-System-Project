@@ -44,7 +44,7 @@ jobs:
           name: Deploy to Production
           command: |
             sudo cp hostel/index.php /var/www/html/
-            curl -I http://localhost
+            curl -I http://192.168.160.3
             sudo service apache2 restart
                    
                    
