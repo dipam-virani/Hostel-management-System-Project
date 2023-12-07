@@ -23,7 +23,7 @@ jobs:
             sleep 10 # Give Apache some time to start
       - run:
           name: Check Website
-          command: curl -I http://localhost
+          command: curl -I http://192.168.1.1
   deploy:
     docker:
       - image: circleci/php:7.4-apache
