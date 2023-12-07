@@ -22,8 +22,18 @@ jobs:
             sudo service apache2 start
             sleep 10 # Give Apache some time to start
       - run:
+          name: Check Apache Logs
+          command: |
+            sudo cat /var/log/apache2/error.log
+            sudo cat /var/log/apache2/access.log
+
+      - run:
           name: Check Website
-          command: curl -I http://192.168.1.1
+          command: curl -I http://127.0.0.1 
+      - run:
+          name: Check Apache Status
+          command: sudo service apache2 status
+
   deploy:
     docker:
       - image: circleci/php:7.4-apache
